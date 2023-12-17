@@ -1,0 +1,158 @@
+.logo-container {
+  margin-right: 10px; /* Adjust the margin as needed */
+}
+
+/* Change the color of the carousel control buttons */
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: rgb(22, 22, 22);
+  border-radius: 18px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: rgb(219, 214, 214);
+  border-radius: 12px;
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+  background-color: rgba(238, 237, 237, 0.151);
+  border-radius: 30px; /* You can adjust the hover color if needed */
+}
+
+.carousel-control-prev:hover .carousel-control-prev-icon,
+.carousel-control-next:hover .carousel-control-next-icon {
+  background-color: rgba(
+    238,
+    237,
+    237,
+    0.507
+  ); /* You can adjust the hover icon color if needed */
+}
+
+/* Change the color of the carousel indicators in both carousel sections */
+.carousel-indicators button {
+  background-color: red;
+}
+
+/*HERO SECTION + header*/
+.background-overlay {
+  background-image: url('./pictures/3podzemnisvijetkraspeleologijafotomcukrov.jpg'); /* Replace 'path/to/your/image.jpg' with the actual path to your background image */
+  background-size: cover;
+  background-position: center 80%;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+/*header section transparent*/
+.background-overlay header:hover {
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.2
+  ) !important; /* Adjust the alpha value (0.9 in this case) */
+}
+
+/*buttons from heather*/
+.nav-link.btn-primary {
+  /*background-color: #fff;*/
+  /*border-color: #b42323;*/
+  color: #fffbfb; /* Set text color to white or another contrasting color */
+  border-radius: 11px;
+}
+
+/*buttons from heather*/
+.nav-link.btn-primary:hover {
+  background-color: #7c7474;
+  border-color: #141414;
+  color: #fffbfb; /* Set text color to white or another contrasting color */
+  border-radius: 11px;
+}
+/*Exploreaza cu noi button*/
+/*ToDo set styling for your buttons*/
+.custom-btn {
+  color: #302e2e !important;
+  background-color: #fffbfb !important;
+  border-color: #fffbfb !important;
+  border-radius: 8px !important; /* Adjust the value to your preference */
+}
+
+.custom-btn:hover {
+  color: #fffbfb !important;
+  background-color: #7c7474 !important;
+  border-color: #555151 !important;
+}
+
+/*HERO SECTION*/
+.bg-custom-gray .text-body-emphasis {
+  color: rgb(247, 248, 250) !important;
+}
+
+/*hero paragraph*/
+.text-body-paragraph {
+  color: rgb(247, 248, 250) !important;
+}
+
+/*Hero button*/
+.custom-hero-btn {
+  color: #302e2e !important;
+  background-color: #fffbfb !important;
+  border-color: #fffbfb !important;
+  border-radius: 12px !important; /* Adjust the value to your preference */
+}
+
+.custom-hero-btn:hover {
+  color: #fffbfb !important;
+  background-color: #7c7474 !important;
+  border-color: #555151 !important;
+}
+
+/*DESPRE NOI SECTION*/
+.despre-noi-section .img-fluid {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.9); /* Adjust the shadow values as needed */
+}
+/*DESPRE NOI SECTION shadow top*/
+.despre-noi-section {
+  background-color: #fffdfd; /* Set your background color */
+  position: relative;
+}
+/*shadow pentru depsre noi*/
+.despre-noi-section h1.custom-gradient-bg {
+  background-image: linear-gradient(
+    to left,
+    rgba(26, 6, 6, 0),
+    rgb(219, 213, 213)
+  );
+  border-radius: 15px; /* Adjust the border-radius value as needed */
+  padding: 9px;
+}
+/*shadow titlu explorarile noastre*/
+.explorarile-noastre-section h2.custom-gradient-bg {
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 0, 0, 0),
+    rgb(219, 213, 213)
+  );
+  border-radius: 15px; /* Adjust the border-radius value as needed */
+  padding: 9px;
+}
+
+/*shadow pt noutati card*/
+.custom-card {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4); /* Adjust the shadow as needed */
+  border-radius: 18px;
+  background-color: #fdfafa;
+}
+
+/*shadow titlu istoria noastra*/
+.istoria-noastra-section h2.custom-gradient-bg {
+  background-image: linear-gradient(
+    to left,
+    rgba(255, 0, 0, 0),
+    rgb(219, 213, 213)
+  );
+  border-radius: 15px; /* Adjust the border-radius value as needed */
+  padding: 9px;
+}
